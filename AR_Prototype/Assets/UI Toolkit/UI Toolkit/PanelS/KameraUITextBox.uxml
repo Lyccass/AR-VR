@@ -1,8 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20Toolkit/UI%20Toolkit/StyleSheetUnity.uss?fileID=7433441132597879392&amp;guid=53c30cfb57c70924f8a91aef54773a2c&amp;type=3#StyleSheetUnity" />
-    <ui:VisualElement name="KameraHamburgermenu" style="flex-grow: 1; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0); height: 1355px; bottom: 0; justify-content: flex-start; width: 1074px; align-self: auto; max-height: 500px; min-height: 500px;">
-        <ui:VisualElement name="Hamburgermenu" style="flex-grow: 1; align-self: center; justify-content: space-between; padding-bottom: 120px; padding-top: 0; padding-right: 120px; padding-left: 120px; align-items: center; width: 30%; height: 329px; position: absolute; top: 150px; left: auto;">
-            <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LogoHamburgermenu" class="iconbuttons" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/PicturesandSHid/Logos/LogoSmall.png?fileID=2800000&amp;guid=f027f037759c58140bf9e0b1f54bc0f9&amp;type=3#LogoSmall&quot;); padding-top: 30px; margin-top: 40px;" />
-        </ui:VisualElement>
-    </ui:VisualElement>
-</ui:UXML>

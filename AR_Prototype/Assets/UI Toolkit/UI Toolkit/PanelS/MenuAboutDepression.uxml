@@ -1,16 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20Toolkit/UI%20Toolkit/StyleSheetUnity.uss?fileID=7433441132597879392&amp;guid=53c30cfb57c70924f8a91aef54773a2c&amp;type=3#StyleSheetUnity" />
-    <ui:VisualElement name="AboutDepressionMenu" style="flex-grow: 1; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0);">
-        <ui:VisualElement name="Header" style="flex-grow: 1; top: 300px; height: 1620px; position: absolute; width: 1080px;">
-            <ui:Label tabindex="-1" text="ABOUT&#10;DEPRESSION" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" style="align-self: flex-start; padding-left: 120px; padding-right: 100px;" />
-        </ui:VisualElement>
-        <ui:VisualElement name="Listdownscroll" style="flex-grow: 1; width: 100%; height: auto; flex-direction: row; justify-content: flex-end; align-items: flex-start; align-self: center;">
-            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" horizontal-scroller-visibility="AlwaysVisible" name="ScrollView" style="top: 700px; height: 1073px; width: 1072px;">
-                <ui:Label tabindex="-1" text="Definition nach dem Bundesminesterium für Gesundheit: „Wenn traurige Gefühle und negative Gedanken das gesamte Leben bestimmten, spricht man von einer Depression“   Wow... das sagt ja viel aus._. Und das erklärt auch sooo viel.&#10;&#10;Depressionen gehören zu den häufigsten und hinsichtlich ihrer Schwere am meisten unterschätzten Erkrankungen.   Aus medizinischer Sicht ist die Depression eine ernste Erkrankung, die das Denken, Fühlen und Handeln der Betroffenen tiefgehend beeinflusst, mit Störungen von Hirn- und anderen Körperfunktionen einhergeht und erhebliches Leiden verursacht.  Die Erkrankung Depression unterscheidet sich von Mensch zu Mensch. Es gibt also nicht nur eine einzige Diagnose für Depression" parse-escape-sequences="true" display-tooltip-when-elided="true" class="smalltext" style="align-self: flex-start; padding-left: 120px; height: 1926px; align-items: auto; -unity-text-align: upper-left; white-space: normal; text-overflow: clip; padding-right: 100px; width: 1077px;" />
-            </ui:ScrollView>
-        </ui:VisualElement>
-    </ui:VisualElement>
-    <ui:VisualElement name="BackButton" style="flex-grow: 1; height: 0; align-items: flex-start; position: absolute;">
-        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" class="iconbuttons" style="align-items: flex-start; align-self: flex-start; background-image: url(&quot;project://database/Assets/UI%20Toolkit/PicturesandSHid/Logos/zurueckButton.png?fileID=2800000&amp;guid=2663f56c3abdb0d4187a83fff7982a70&amp;type=3#zurueckButton&quot;); width: 300px; height: 300px;" />
-    </ui:VisualElement>
-</ui:UXML>

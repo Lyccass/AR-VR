@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Test2" size="5.000000 8.133439" />
+    <ImageTarget name="Poster_Wand" size="5.000000 3.334961" />
+    <ImageTarget name="Test1" size="5.000000 7.421135" />
+  </Tracking>
+</QCARConfig>
