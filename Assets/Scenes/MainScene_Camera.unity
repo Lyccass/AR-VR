@@ -1111,6 +1111,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 495430724}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &495430730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495430722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 495430724}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: poster
+  mDatasetName: Vuforia/Target_Poster.xml
+  mCastedBehaviour: {fileID: 495430724}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &544175275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1149,7 +1168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509617497285862774, guid: 349836617752a064d8e6e733713306bc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1588972718789556888, guid: 349836617752a064d8e6e733713306bc, type: 3}
       propertyPath: m_IsActive
@@ -1252,6 +1271,10 @@ PrefabInstance:
       value: -960
       objectReference: {fileID: 0}
     - target: {fileID: 3368118882077685741, guid: 349836617752a064d8e6e733713306bc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442578844154420698, guid: 349836617752a064d8e6e733713306bc, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1367,9 +1390,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5458260184919912274, guid: 349836617752a064d8e6e733713306bc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6546581121561987209, guid: 349836617752a064d8e6e733713306bc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7130321754909273913, guid: 349836617752a064d8e6e733713306bc, type: 3}
       propertyPath: m_IsActive
@@ -1526,7 +1553,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &549664165
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1780,6 +1807,10 @@ PrefabInstance:
     - target: {fileID: 664483513875882224, guid: f5e944172c8ccb545950e0b8a918e109, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 737844641658340605, guid: f5e944172c8ccb545950e0b8a918e109, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1574754332507860308, guid: f5e944172c8ccb545950e0b8a918e109, type: 3}
       propertyPath: sfxSource
@@ -2196,7 +2227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 995014580}
-  startRadius: 500
+  startRadius: 1000
   maxRadius: 15000
   radiusIncreaseFactor: 1.2
   radiusIncreaseSpeed: 100
@@ -8298,6 +8329,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 140357521674456325, guid: ae773c7bace97f3408b3f1649612224c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 495430729}
+    - targetCorrespondingSourceObject: {fileID: 140357521674456325, guid: ae773c7bace97f3408b3f1649612224c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 495430730}
     - targetCorrespondingSourceObject: {fileID: 5696602317893248094, guid: ae773c7bace97f3408b3f1649612224c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}

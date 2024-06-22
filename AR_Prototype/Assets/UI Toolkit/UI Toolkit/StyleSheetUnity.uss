@@ -1,0 +1,127 @@
+.text {
+    font-size: 86px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+}
+
+.header {
+    font-size: 120px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    padding-bottom: 150px;
+    -unity-font-style: normal;
+}
+
+.smalltext {
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    padding-top: 0;
+    padding-bottom: 20px;
+    white-space: normal;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.buttontext {
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 40%;
+    height: 20%;
+}
+
+.iconbuttons {
+    color: rgba(27, 27, 27, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    background-image: url("project://database/Assets/PicturesandSHid/Logos/Buch.png?fileID=2800000&guid=5ecb8b844b3684641b176fcf4bf27e78&type=3#Buch");
+    width: 200px;
+    height: 200px;
+    background-color: rgba(188, 188, 188, 0);
+    align-self: center;
+}
+
+#unity-low-button {
+    visibility: hidden;
+    display: none;
+}
+
+#unity-high-button {
+    display: none;
+    visibility: hidden;
+}
+
+#unity-dragger {
+    background-color: rgb(199, 199, 199);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    align-items: auto;
+}
+
+#unity-tracker {
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.49);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-right: 0;
+    margin-right: 0;
+    right: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    align-self: auto;
+    align-items: auto;
+    width: 100%;
+    flex-grow: 0;
+}
+
+.storydeselected:disabled {
+}
+
+.storyselected:selected {
+}
+
+#unity-text-input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+}

@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UI%20Toolkit/StyleSheetUnity.uss?fileID=7433441132597879392&amp;guid=53c30cfb57c70924f8a91aef54773a2c&amp;type=3#StyleSheetUnity" />
+    <ui:VisualElement name="TWScreen4" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI%20Toolkit/PicturesandSHid/Backgrounds/Unbenanntes_Projekt%204.png?fileID=2800000&amp;guid=c0855324ab2a86649b551784c7b00dfd&amp;type=3#Unbenanntes_Projekt 4&quot;); -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement name="TextBox" style="flex-grow: 1; height: 746px; width: 1080px; align-items: center; justify-content: center; align-self: center;">
+            <ui:Label tabindex="-1" text="TRIGGER WARNING&#10;&#10;you’ll be faced with visuals and sounds that might be triggering.&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TextTW4" class="text" style="white-space: normal; padding-right: 120px; padding-left: 120px; -unity-font: url(&quot;project://database/Assets/Assets/Font/trushdex/Trushdex.ttf?fileID=12800000&amp;guid=2faff4f312ab90941b2414c1acff07ff&amp;type=3#Trushdex&quot;); -unity-font-definition: initial; font-size: 60px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ButtonBox" style="flex-grow: 1; height: 0; align-items: center; justify-content: center;">
+            <ui:Button text="Okay" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TWButton4" class="buttontext" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
