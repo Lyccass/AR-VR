@@ -831,11 +831,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b1a99fa5f246d894ab66a49d84ea9590, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b1a99fa5f246d894ab66a49d84ea9590, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b1a99fa5f246d894ab66a49d84ea9590, type: 3}
       propertyPath: m_LocalRotation.y
@@ -843,11 +843,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b1a99fa5f246d894ab66a49d84ea9590, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b1a99fa5f246d894ab66a49d84ea9590, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b1a99fa5f246d894ab66a49d84ea9590, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1060,6 +1060,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &495430729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495430722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 495430724}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: poster
+  mDatasetName: Vuforia/Target_Poster.xml
+  mCastedBehaviour: {fileID: 495430724}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &495430730
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1775,7 +1794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8100669258862185305, guid: f5e944172c8ccb545950e0b8a918e109, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8137070918901160268, guid: f5e944172c8ccb545950e0b8a918e109, type: 3}
       propertyPath: m_IsActive
@@ -1783,7 +1802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8353095393010803613, guid: f5e944172c8ccb545950e0b8a918e109, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8499468970373227605, guid: f5e944172c8ccb545950e0b8a918e109, type: 3}
       propertyPath: m_IsActive
@@ -3152,6 +3171,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 140357521674456325, guid: ae773c7bace97f3408b3f1649612224c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 495430729}
+    - targetCorrespondingSourceObject: {fileID: 140357521674456325, guid: ae773c7bace97f3408b3f1649612224c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 495430730}
     - targetCorrespondingSourceObject: {fileID: 5696602317893248094, guid: ae773c7bace97f3408b3f1649612224c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
